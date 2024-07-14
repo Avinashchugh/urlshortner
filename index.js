@@ -6,7 +6,7 @@ const URL = require("./models/url");
 const app = express();
 const PORT = 8001;
 
-connectToMongoDB("mongodb+srv://Avinash:Qwerty14328%40@cluster0.yxh50g8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(() =>
+connectToMongoDB("").then(() =>
   console.log("Mongodb connected")
 );
 
